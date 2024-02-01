@@ -331,3 +331,5 @@ def get_user_photo(request, user_id):
 
     # Return the photo data as an HTTP response
     return HttpResponse(photo_data, content_type=content_type)
+
+
